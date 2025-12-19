@@ -6,6 +6,7 @@ using CatFoodManager.API.DTOs;
 using CatFoodManager.API.Hubs;
 using CatFoodManager.API.Models;
 using CatFoodManager.API.Services;
+using User = CatFoodManager.API.Models.User;
 
 namespace CatFoodManager.API.Controllers;
 

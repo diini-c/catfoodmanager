@@ -5,7 +5,7 @@ using CatFoodManager.API.DTOs;
 namespace CatFoodManager.API.Hubs;
 
 [Authorize]
-public class FeedingHub : Hub
+public class FeedingHub : Hub<IFeedingHubClient>
 {
     public async Task JoinHousehold(string householdId)
     {

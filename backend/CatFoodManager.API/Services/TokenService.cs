@@ -3,6 +3,7 @@ using System.Security.Claims;
 using System.Text;
 using Microsoft.IdentityModel.Tokens;
 using CatFoodManager.API.Models;
+using User = CatFoodManager.API.Models.User;
 
 namespace CatFoodManager.API.Services;
 

@@ -1,5 +1,6 @@
 using Microsoft.Azure.Cosmos;
 using CatFoodManager.API.Models;
+using User = CatFoodManager.API.Models.User;
 
 namespace CatFoodManager.API.Services;
 
