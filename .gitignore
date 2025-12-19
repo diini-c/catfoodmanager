@@ -1,0 +1,83 @@
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+[Bb]in/
+[Oo]bj/
+publish/
+
+# .NET
+*.user
+*.userosscache
+*.suo
+*.cache
+*.dll
+*.pdb
+*.exe
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# NuGet
+*.nupkg
+**/packages/*
+!**/packages/build/
+*.nuget.props
+*.nuget.targets
+.nuget/
+
+# ASP.NET
+**/appsettings.*.json
+!**/appsettings.json
+!**/appsettings.Development.json
+
+# Rider/VS
+.idea/
+*.sln.iml
+.vs/
+*.rsuser
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode
+*.xcuserstate
+*.xcworkspace
+!*.xcworkspace/contents.xcworkspacedata
+xcuserdata/
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Secrets - NEVER commit these
+**/appsettings.Production.json
+*.env
+.env.*
+secrets.json
+local.settings.json
+
+# Azure
+azuredeploy.parameters.local.json
+
+# Logs
+*.log
+logs/
+
+# IDE
+*.swp
+*~
